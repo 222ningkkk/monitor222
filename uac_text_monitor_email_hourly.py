@@ -5,7 +5,7 @@ from email.mime.multipart import MIMEMultipart
 from email.header import Header
 
 URL = "https://www.unionathleticsclub.com/shopuac"
-TARGET_TEXT = "Sold out. Look out for Dragon gear Fall 2025."
+TARGET_TEXT = "Sold out"
 SMTP_SERVER, SMTP_PORT = "smtp.gmail.com", 465
 
 SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
